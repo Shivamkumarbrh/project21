@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.navbar a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+.navbarMobile{
+    display: block;
+    text-align: center;
+}
+.navbar #first{
+    display: block;
+    background-color: #333;
+}
+.navbar #first:hover{
+    background-color: #ddd;
+}
+#navbarMobileLast{
+    display: none;
+}
+.slide{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    padding: 20px 0px;
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+}
+.slide h2{
+    padding: 40px 20px;
+}
+.slide ul{
+    list-style-type: none;
+}
+.slide ul li{
+    display: block;
+}
+.slide ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+.slide ul li a:hover{
+    background-color: black;
+    color:white;
+}
+.mainContainer{
+    width: calc( 100% - 250px );
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 250px;
+    flex-wrap: wrap;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.mContainer{
+    width: 65%;
+    /* border: 1px solid; */
+    padding: 50px 15px;
+    box-sizing: border-box;
+}
+.mContainer h1{
+    color: #009688;
+}
+.mContainer p{
+    padding: 25px 0px;
+}
+.mBox{
+    width: 35%;
+    display: flex;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.mBoxFirst{
+    width: 100%;
+    padding: 30px 0px;
+    margin: 40px 15px 0px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.mBoxSecond{
+    width: 100%;
+    padding: 70px 0px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 15px 15px 100px 15px ;
+}
+
+
+
+
+
+.bottom{
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    left: 250px;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    margin: 30px 0px;
+}
+.bottom a{
+    display: inline-block;
+    padding: 12px 15px;
+    text-align: center;
+    /* background-color: black; */
+    color: black;
+    margin: 0px 2px;
+    text-decoration: none;
+}
+#bottomFirst{
+    background-color: black;
+    color: white;
+}
+#bottomLast{
+    font-size: 10px;
+    padding: 15px 15px;
+    align-self: center;
+}
+.bottom a:hover:not(#bottomFirst){
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 100%;
+    color: white;
+}
+#footerContent{
+    padding: 40px 270px;
+    color: white;
+    background-color: rgb(130, 129, 129);
+    font-size: 20px;
+    color: white;
+    /* background-color: black; */
+    box-sizing: border-box;
+}
+#footerInfo{
+    background-color: #333;
+    padding: 20px 270px;
+}
+
+.navbarMobile{
+    display: none;
+}
+.slideMobileContainer{
+    display: none;
+}

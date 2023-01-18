@@ -1,0 +1,165 @@
+@media screen and (max-width:992px) {
+    #sixth{
+        display: none;
+    }
+    #seven{
+        display: none;
+    }
+    #navbarMobileLast{
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        align-self: right;
+    }
+    .mainContainer{
+        width: 100%;
+        left: 0px;
+    }
+    .mContainer{
+        width: 65%;
+        padding: 0px 15px;
+    }
+    .mContainer h1{
+        padding: 35px 0px 0px 0px;
+    }
+    .mContainer p{
+        padding: 20px 0px;
+    }
+    .mBox{
+        width: 35%;
+    }
+    .mBoxSecond{
+        margin: 15px 15px 60px 15px ;
+    }
+    .slide{
+        display: none;
+    }
+    .slideMobileContainer{
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        position: fixed;
+        top: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .slideMobile{
+        min-width: 250px;
+        max-width: 600px;
+        height: 100vh;
+        position: fixed;
+        top:auto;
+        background-color: rgba(225, 225, 225, 1);
+        /* border: 1px solid; */
+    }
+    .slideMobileContent{
+        display: flex;
+        /* padding: 10px 5px; */
+        width: 100%;
+        box-sizing: border-box;
+        /* border: 1px solid; */
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    .slideMobileContent h2{
+        padding: 12px 15px;
+    }
+    .slideMobileContent i{
+        padding: 12px 20px;
+    font-size: 20px;
+    }
+    .slideMobileContainer i:hover{
+        background-color: black;
+        color: white;
+    }
+    .slideMobile ul{
+        display: block;
+    }
+    .slideMobile ul{
+        list-style-type: none;
+    }
+    .slideMobile ul li{
+        display: block;
+    }
+    .slideMobile ul li a{
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: black;
+    }
+    .slideMobile ul li a:hover{
+        background-color: black;
+        color:white;
+    }
+    .bottom{
+        left: 0px;
+        width: 100%;
+        margin: 30px 0px;
+    }
+    #footerContent{
+        padding: 40px 20px;
+    }
+    #footerInfo{
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbarMobile{
+        background-color: black;
+        display:flex;
+        top: 0px;
+        z-index: 2;
+        position: sticky;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .navbarMobile a{
+        padding: 12px 15px;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        background-color: #333;
+    }
+    #navbarMobileFirst:hover{
+        background-color: #ddd;
+        color: black;
+    }
+   
+    .navbar{
+        display: none;
+    }
+    .slide{
+        display: none;
+    }
+    .mainContainer{
+        width: 100%;
+        position: relative;
+        /* left: 250px; */
+        /* border: 1px solid; */
+    }
+    .mainContainer{
+        width: 100%;
+        left: 0px;
+    }
+    .mContainer{
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .mContainer h1{
+        padding: 15px 0px;
+    }
+    .mContainer p{
+        padding: 15px 0px;
+    }
+    .mBox{
+        width: 100%;
+    }
+    .mBoxFirst{
+        margin: 10px 15px 0px 15px;
+    }
+    .mBoxSecond{
+        margin: 15px 15px 80px 15px ;
+    }
+    
+}
