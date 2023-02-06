@@ -1,6 +1,16 @@
+const slideBar = document.querySelector('.slideMobileContainer');
+
 let openSlide = function (){
-    document.querySelector('.slideMobileContainer').style.display = 'block';
+    slideBar.style.display = 'block';
 }
 let closeSlide = function (){
-    document.querySelector('.slideMobileContainer').style.display = 'none';
+    slideBar.style.display = 'none';
+}
+let nav = ()=>{
+    if(slideBar.style.display == 'block'){
+        slideBar.style.display = 'none';
+    }
+    else{
+        slideBar.style.display = 'block';
+    }
 }

@@ -7,9 +7,14 @@
     }
     #navbarMobileLast{
         display: block;
-        position: absolute;
+        color: white;
         right: 0px;
-        top: 0px;
+        position: absolute;
+        font-size: 18px;
+        padding: 10px 15px;
+        background-color: black;
+        border: none;
+        text-decoration: none;
         align-self: right;
     }
     .mainContainer{
